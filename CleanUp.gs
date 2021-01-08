@@ -7,8 +7,7 @@ function cleanUp() {
   var conditions_array = ['label:30days_delete',
                           'label:online_store-totoStore', 
                           'from:bonsplans@newsletter.travel.com',
-                          'label:paris-freecycle',
-                          'label:paris-do-it-in-paris'
+                          'from:greenpeace'
                          ]
   var exclusion_query = " -in:starred"
   
